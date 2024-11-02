@@ -4,6 +4,7 @@ public class LightsOutPlayer extends DuoplayPlayer{
         super(playerName);
     }
 
+
     @Override
     public GameState move(Duoplay game) {
         Scanner scanriel = new Scanner(System.in);

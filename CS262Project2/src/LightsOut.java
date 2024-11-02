@@ -2,12 +2,15 @@ import java.util.Random;
 public class LightsOut extends Duoplay{
     private int[][] boardArray;
 
+    /**
+     * default constructor for LightsOut
+     */
     LightsOut(){
         super();
     }
 
     /**
-     * Construcotr that takes two game players
+     * Constructor that takes two game players
      * @param player1 - Player 1 of the game
      * @param player2 - Player 2 of the game
      */
